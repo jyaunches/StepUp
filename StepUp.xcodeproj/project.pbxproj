@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165C88AF18A6B97E00018B79 /* viewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88AE18A6B97E00018B79 /* viewController.xib */; };
 		7050E1FE18A6B06300DFDF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FD18A6B06300DFDF81 /* Foundation.framework */; };
 		7050E20018A6B06300DFDF81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */; };
 		7050E20218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		165C88AE18A6B97E00018B79 /* viewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewController.xib; sourceTree = "<group>"; };
 		7050E1FA18A6B06300DFDF81 /* StepUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7050E1FD18A6B06300DFDF81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 			children = (
 				7050E20C18A6B06300DFDF81 /* AppDelegate.h */,
 				7050E20D18A6B06300DFDF81 /* AppDelegate.m */,
+				165C88AE18A6B97E00018B79 /* viewController.xib */,
 				7050E20F18A6B06300DFDF81 /* Main_iPhone.storyboard */,
 				7050E21218A6B06300DFDF81 /* Main_iPad.storyboard */,
 				7050E21518A6B06300DFDF81 /* ViewController.h */,
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165C88AF18A6B97E00018B79 /* viewController.xib in Resources */,
 				7050E21418A6B06300DFDF81 /* Main_iPad.storyboard in Resources */,
 				7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */,
 				7050E21118A6B06300DFDF81 /* Main_iPhone.storyboard in Resources */,
@@ -473,6 +477,7 @@
 				7050E23118A6B06300DFDF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7050E23218A6B06300DFDF81 /* Build configuration list for PBXNativeTarget "StepUpTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +486,7 @@
 				7050E23418A6B06300DFDF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
