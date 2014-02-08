@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegistrationServiceProtocol.h"
 
-@interface RegistrationVC : UIViewController
+@interface RegistrationVC : UIViewController<RegistrationServiceProtocol>
+@property (weak, nonatomic) IBOutlet UITextField *registrationInput;
+@property (weak, nonatomic) IBOutlet UILabel *errorMessage;
 
 @end

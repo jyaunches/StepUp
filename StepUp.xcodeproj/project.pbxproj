@@ -23,6 +23,10 @@
 		7050E22218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
 		7050E22A18A6B06300DFDF81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7050E22818A6B06300DFDF81 /* InfoPlist.strings */; };
 		7050E22C18A6B06300DFDF81 /* StepUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E22B18A6B06300DFDF81 /* StepUpTests.m */; };
+		7050E23618A6C80400DFDF81 /* ForumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7050E23518A6C80400DFDF81 /* ForumVC.xib */; };
+		7050E23918A6C83700DFDF81 /* ForumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E23818A6C83700DFDF81 /* ForumVC.m */; };
+		E7770724DA644A8575118B00 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770C02F040CA02F21AD9C4 /* User.m */; };
+		E7770C62F797E89E224CA996 /* RegistrationService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770A63EC97D2AA037C14CC /* RegistrationService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,14 @@
 		7050E22718A6B06300DFDF81 /* StepUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StepUpTests-Info.plist"; sourceTree = "<group>"; };
 		7050E22918A6B06300DFDF81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7050E22B18A6B06300DFDF81 /* StepUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepUpTests.m; sourceTree = "<group>"; };
+		7050E23518A6C80400DFDF81 /* ForumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForumVC.xib; sourceTree = "<group>"; };
+		7050E23718A6C83700DFDF81 /* ForumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumVC.h; sourceTree = "<group>"; };
+		7050E23818A6C83700DFDF81 /* ForumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumVC.m; sourceTree = "<group>"; };
+		E777002D1DAAA966E53E8D73 /* RegistrationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationService.h; sourceTree = "<group>"; };
+		E77702290FB7197C2824D78B /* RegistrationServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationServiceProtocol.h; sourceTree = "<group>"; };
+		E777077AF11B7F4DCE7A4F1B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E7770A63EC97D2AA037C14CC /* RegistrationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationService.m; sourceTree = "<group>"; };
+		E7770C02F040CA02F21AD9C4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,14 @@
 				7050E21618A6B06300DFDF81 /* RegistrationVC.m */,
 				7050E21818A6B06300DFDF81 /* Images.xcassets */,
 				7050E20418A6B06300DFDF81 /* Supporting Files */,
+				E7770A63EC97D2AA037C14CC /* RegistrationService.m */,
+				E777002D1DAAA966E53E8D73 /* RegistrationService.h */,
+				E77702290FB7197C2824D78B /* RegistrationServiceProtocol.h */,
+				E7770C02F040CA02F21AD9C4 /* User.m */,
+				E777077AF11B7F4DCE7A4F1B /* User.h */,
+				7050E23518A6C80400DFDF81 /* ForumVC.xib */,
+				7050E23718A6C83700DFDF81 /* ForumVC.h */,
+				7050E23818A6C83700DFDF81 /* ForumVC.m */,
 			);
 			path = StepUp;
 			sourceTree = "<group>";
@@ -235,6 +255,7 @@
 			files = (
 				165C88AF18A6B97E00018B79 /* RegistrationVC.xib in Resources */,
 				7050E21418A6B06300DFDF81 /* Main_iPad.storyboard in Resources */,
+				7050E23618A6C80400DFDF81 /* ForumVC.xib in Resources */,
 				7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */,
 				7050E21118A6B06300DFDF81 /* Main_iPhone.storyboard in Resources */,
 				7050E20818A6B06300DFDF81 /* InfoPlist.strings in Resources */,
@@ -259,6 +280,9 @@
 				7050E21718A6B06300DFDF81 /* RegistrationVC.m in Sources */,
 				7050E20E18A6B06300DFDF81 /* AppDelegate.m in Sources */,
 				7050E20A18A6B06300DFDF81 /* main.m in Sources */,
+				E7770C62F797E89E224CA996 /* RegistrationService.m in Sources */,
+				7050E23918A6C83700DFDF81 /* ForumVC.m in Sources */,
+				E7770724DA644A8575118B00 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
