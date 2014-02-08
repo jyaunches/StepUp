@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "RegistrationVC.h"
 
 @implementation AppDelegate
 
@@ -15,7 +15,7 @@
 {
     // Override point for customization after application launch.
     
-    ViewController *viewController = [[ViewController alloc]initWithNibName:@"viewController" bundle:nil];
+    RegistrationVC *viewController = [[RegistrationVC alloc]initWithNibName:@"RegistrationVC" bundle:nil];
     
     self.window.rootViewController = viewController;
     

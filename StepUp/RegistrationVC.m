@@ -6,13 +6,13 @@
 //
 //
 
-#import "ViewController.h"
+#import "RegistrationVC.h"
 
-@interface ViewController ()
+@interface RegistrationVC ()
 
 @end
 
-@implementation ViewController
+@implementation RegistrationVC
 
 - (void)viewDidLoad
 {
