@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		165C88AF18A6B97E00018B79 /* RegistrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88AE18A6B97E00018B79 /* RegistrationVC.xib */; };
+		702355B918A709E400182462 /* RDRStickyKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702355B818A709E400182462 /* RDRStickyKeyboardView.m */; };
+		702355BD18A70AFA00182462 /* ForumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702355BC18A70AFA00182462 /* ForumVC.xib */; };
 		7050E1FE18A6B06300DFDF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FD18A6B06300DFDF81 /* Foundation.framework */; };
 		7050E20018A6B06300DFDF81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */; };
 		7050E20218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
@@ -23,11 +25,11 @@
 		7050E22218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
 		7050E22A18A6B06300DFDF81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7050E22818A6B06300DFDF81 /* InfoPlist.strings */; };
 		7050E22C18A6B06300DFDF81 /* StepUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E22B18A6B06300DFDF81 /* StepUpTests.m */; };
-		7050E23618A6C80400DFDF81 /* ForumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7050E23518A6C80400DFDF81 /* ForumVC.xib */; };
 		7050E23918A6C83700DFDF81 /* ForumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E23818A6C83700DFDF81 /* ForumVC.m */; };
 		7050E24418A6DA7700DFDF81 /* MentorMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7050E24318A6DA7700DFDF81 /* MentorMessageCell.xib */; };
 		7050E24A18A6DACC00DFDF81 /* MentorMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E24918A6DACC00DFDF81 /* MentorMessageCell.m */; };
 		7050E25318A6E13800DFDF81 /* ForumTVDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E25218A6E13800DFDF81 /* ForumTVDelegate.m */; };
+		E7770086B2C134AA5059A830 /* MessageService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770B4BD830883F9E791DF6 /* MessageService.m */; };
 		E7770724DA644A8575118B00 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770C02F040CA02F21AD9C4 /* User.m */; };
 		E7770C62F797E89E224CA996 /* RegistrationService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770A63EC97D2AA037C14CC /* RegistrationService.m */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		165C88AE18A6B97E00018B79 /* RegistrationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationVC.xib; sourceTree = "<group>"; };
+		702355B718A709E400182462 /* RDRStickyKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRStickyKeyboardView.h; sourceTree = "<group>"; };
+		702355B818A709E400182462 /* RDRStickyKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRStickyKeyboardView.m; sourceTree = "<group>"; };
+		702355BC18A70AFA00182462 /* ForumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForumVC.xib; sourceTree = "<group>"; };
 		7050E1FA18A6B06300DFDF81 /* StepUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7050E1FD18A6B06300DFDF81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +69,6 @@
 		7050E22718A6B06300DFDF81 /* StepUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StepUpTests-Info.plist"; sourceTree = "<group>"; };
 		7050E22918A6B06300DFDF81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7050E22B18A6B06300DFDF81 /* StepUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepUpTests.m; sourceTree = "<group>"; };
-		7050E23518A6C80400DFDF81 /* ForumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForumVC.xib; sourceTree = "<group>"; };
 		7050E23718A6C83700DFDF81 /* ForumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumVC.h; sourceTree = "<group>"; };
 		7050E23818A6C83700DFDF81 /* ForumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumVC.m; sourceTree = "<group>"; };
 		7050E24318A6DA7700DFDF81 /* MentorMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MentorMessageCell.xib; path = ../MentorMessageCell.xib; sourceTree = "<group>"; };
@@ -76,7 +80,9 @@
 		E77702290FB7197C2824D78B /* RegistrationServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationServiceProtocol.h; sourceTree = "<group>"; };
 		E777077AF11B7F4DCE7A4F1B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		E7770A63EC97D2AA037C14CC /* RegistrationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationService.m; sourceTree = "<group>"; };
+		E7770B4BD830883F9E791DF6 /* MessageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageService.m; sourceTree = "<group>"; };
 		E7770C02F040CA02F21AD9C4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E7770E6B8524EBAB0ADDAB3A /* MessageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,8 @@
 				E77702290FB7197C2824D78B /* RegistrationServiceProtocol.h */,
 				E7770C02F040CA02F21AD9C4 /* User.m */,
 				E777077AF11B7F4DCE7A4F1B /* User.h */,
+				E7770B4BD830883F9E791DF6 /* MessageService.m */,
+				E7770E6B8524EBAB0ADDAB3A /* MessageService.h */,
 			);
 			path = StepUp;
 			sourceTree = "<group>";
@@ -187,7 +195,9 @@
 		7050E25018A6E04A00DFDF81 /* Forum */ = {
 			isa = PBXGroup;
 			children = (
-				7050E23518A6C80400DFDF81 /* ForumVC.xib */,
+				702355BC18A70AFA00182462 /* ForumVC.xib */,
+				702355B718A709E400182462 /* RDRStickyKeyboardView.h */,
+				702355B818A709E400182462 /* RDRStickyKeyboardView.m */,
 				7050E23718A6C83700DFDF81 /* ForumVC.h */,
 				7050E23818A6C83700DFDF81 /* ForumVC.m */,
 				7050E24818A6DACC00DFDF81 /* MentorMessageCell.h */,
@@ -276,7 +286,7 @@
 			files = (
 				165C88AF18A6B97E00018B79 /* RegistrationVC.xib in Resources */,
 				7050E21418A6B06300DFDF81 /* Main_iPad.storyboard in Resources */,
-				7050E23618A6C80400DFDF81 /* ForumVC.xib in Resources */,
+				702355BD18A70AFA00182462 /* ForumVC.xib in Resources */,
 				7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */,
 				7050E24418A6DA7700DFDF81 /* MentorMessageCell.xib in Resources */,
 				7050E21118A6B06300DFDF81 /* Main_iPhone.storyboard in Resources */,
@@ -306,7 +316,9 @@
 				7050E24A18A6DACC00DFDF81 /* MentorMessageCell.m in Sources */,
 				7050E23918A6C83700DFDF81 /* ForumVC.m in Sources */,
 				7050E25318A6E13800DFDF81 /* ForumTVDelegate.m in Sources */,
+				702355B918A709E400182462 /* RDRStickyKeyboardView.m in Sources */,
 				E7770724DA644A8575118B00 /* User.m in Sources */,
+				E7770086B2C134AA5059A830 /* MessageService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

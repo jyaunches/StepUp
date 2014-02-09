@@ -11,8 +11,7 @@
 @class User;
 @class ForumTVDelegate;
 
-@interface ForumVC : UIViewController<UITableViewDelegate, UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-
+@interface ForumVC : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *messageInput;
 @property(nonatomic, strong) User *user;
 @end
