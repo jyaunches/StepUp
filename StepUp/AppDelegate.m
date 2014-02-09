@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "CalendarListViewController.h"
 
 @implementation AppDelegate
 
@@ -15,9 +15,11 @@
 {
     // Override point for customization after application launch.
     
-    ViewController *viewController = [[ViewController alloc]initWithNibName:@"viewController" bundle:nil];
-    
-    self.window.rootViewController = viewController;
+//    CalendarListViewController *calendarListVC = [[CalendarListViewController alloc]initWithNibName:@"CalendarListVC" bundle:nil];
+//
+////    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:calendarListVC];
+//
+//    self.window.rootViewController = calendarListVC;
     
     return YES;
 }

@@ -8,14 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		165C88AF18A6B97E00018B79 /* viewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88AE18A6B97E00018B79 /* viewController.xib */; };
+		165C88B418A6C36800018B79 /* CalendarListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88B318A6C36800018B79 /* CalendarListViewController.m */; };
+		165C88B718A6C4CD00018B79 /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88B618A6C4CD00018B79 /* CalendarCell.m */; };
+		165C88BB18A6C8DA00018B79 /* CalendarListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88BA18A6C8DA00018B79 /* CalendarListVC.xib */; };
+		165C88BD18A6CE7600018B79 /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88BC18A6CE7600018B79 /* CalendarCell.xib */; };
+		165C88BF18A6D61500018B79 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C88BE18A6D61500018B79 /* EventKit.framework */; };
+		165C88C118A6DB7200018B79 /* NewEventVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88C018A6DB7200018B79 /* NewEventVC.xib */; };
+		165C88C418A6DBA000018B79 /* NewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88C318A6DBA000018B79 /* NewEventViewController.m */; };
+		165C88C718A7094600018B79 /* EventDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88C618A7094600018B79 /* EventDetailsCell.m */; };
+		165C88C918A7095600018B79 /* EventDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88C818A7095600018B79 /* EventDetailsCell.xib */; };
+		165C88CE18A7188900018B79 /* venueBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C88CA18A7188900018B79 /* venueBlack.png */; };
+		165C88CF18A7188900018B79 /* venueGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C88CB18A7188900018B79 /* venueGrey.png */; };
+		165C88D018A7188900018B79 /* clockBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C88CC18A7188900018B79 /* clockBlack.png */; };
+		165C88D118A7188900018B79 /* clockGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C88CD18A7188900018B79 /* clockGrey.png */; };
+		165C88D418A7260900018B79 /* EventCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88D318A7260900018B79 /* EventCreateViewController.m */; };
+		165C88D618A727DD00018B79 /* EventCreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88D518A727DC00018B79 /* EventCreateVC.xib */; };
 		7050E1FE18A6B06300DFDF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FD18A6B06300DFDF81 /* Foundation.framework */; };
 		7050E20018A6B06300DFDF81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */; };
 		7050E20218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
 		7050E20818A6B06300DFDF81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7050E20618A6B06300DFDF81 /* InfoPlist.strings */; };
 		7050E20A18A6B06300DFDF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E20918A6B06300DFDF81 /* main.m */; };
 		7050E20E18A6B06300DFDF81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E20D18A6B06300DFDF81 /* AppDelegate.m */; };
-		7050E21118A6B06300DFDF81 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7050E20F18A6B06300DFDF81 /* Main_iPhone.storyboard */; };
-		7050E21418A6B06300DFDF81 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7050E21218A6B06300DFDF81 /* Main_iPad.storyboard */; };
 		7050E21718A6B06300DFDF81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E21618A6B06300DFDF81 /* ViewController.m */; };
 		7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7050E21818A6B06300DFDF81 /* Images.xcassets */; };
 		7050E22018A6B06300DFDF81 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E21F18A6B06300DFDF81 /* XCTest.framework */; };
@@ -37,6 +50,26 @@
 
 /* Begin PBXFileReference section */
 		165C88AE18A6B97E00018B79 /* viewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewController.xib; sourceTree = "<group>"; };
+		165C88B218A6C36800018B79 /* CalendarListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListViewController.h; sourceTree = "<group>"; };
+		165C88B318A6C36800018B79 /* CalendarListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListViewController.m; sourceTree = "<group>"; };
+		165C88B518A6C4CD00018B79 /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		165C88B618A6C4CD00018B79 /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
+		165C88BA18A6C8DA00018B79 /* CalendarListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarListVC.xib; sourceTree = "<group>"; };
+		165C88BC18A6CE7600018B79 /* CalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		165C88BE18A6D61500018B79 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		165C88C018A6DB7200018B79 /* NewEventVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewEventVC.xib; sourceTree = "<group>"; };
+		165C88C218A6DBA000018B79 /* NewEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEventViewController.h; sourceTree = "<group>"; };
+		165C88C318A6DBA000018B79 /* NewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEventViewController.m; sourceTree = "<group>"; };
+		165C88C518A7094600018B79 /* EventDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailsCell.h; sourceTree = "<group>"; };
+		165C88C618A7094600018B79 /* EventDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailsCell.m; sourceTree = "<group>"; };
+		165C88C818A7095600018B79 /* EventDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailsCell.xib; sourceTree = "<group>"; };
+		165C88CA18A7188900018B79 /* venueBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venueBlack.png; sourceTree = "<group>"; };
+		165C88CB18A7188900018B79 /* venueGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venueGrey.png; sourceTree = "<group>"; };
+		165C88CC18A7188900018B79 /* clockBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockBlack.png; sourceTree = "<group>"; };
+		165C88CD18A7188900018B79 /* clockGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockGrey.png; sourceTree = "<group>"; };
+		165C88D218A7260900018B79 /* EventCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCreateViewController.h; sourceTree = "<group>"; };
+		165C88D318A7260900018B79 /* EventCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCreateViewController.m; sourceTree = "<group>"; };
+		165C88D518A727DC00018B79 /* EventCreateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCreateVC.xib; sourceTree = "<group>"; };
 		7050E1FA18A6B06300DFDF81 /* StepUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7050E1FD18A6B06300DFDF81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +80,6 @@
 		7050E20B18A6B06300DFDF81 /* StepUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StepUp-Prefix.pch"; sourceTree = "<group>"; };
 		7050E20C18A6B06300DFDF81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7050E20D18A6B06300DFDF81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7050E21018A6B06300DFDF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		7050E21318A6B06300DFDF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		7050E21518A6B06300DFDF81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7050E21618A6B06300DFDF81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7050E21818A6B06300DFDF81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -64,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165C88BF18A6D61500018B79 /* EventKit.framework in Frameworks */,
 				7050E20018A6B06300DFDF81 /* CoreGraphics.framework in Frameworks */,
 				7050E20218A6B06300DFDF81 /* UIKit.framework in Frameworks */,
 				7050E1FE18A6B06300DFDF81 /* Foundation.framework in Frameworks */,
@@ -105,6 +137,7 @@
 		7050E1FC18A6B06300DFDF81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				165C88BE18A6D61500018B79 /* EventKit.framework */,
 				7050E1FD18A6B06300DFDF81 /* Foundation.framework */,
 				7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */,
 				7050E20118A6B06300DFDF81 /* UIKit.framework */,
@@ -119,10 +152,27 @@
 				7050E20C18A6B06300DFDF81 /* AppDelegate.h */,
 				7050E20D18A6B06300DFDF81 /* AppDelegate.m */,
 				165C88AE18A6B97E00018B79 /* viewController.xib */,
-				7050E20F18A6B06300DFDF81 /* Main_iPhone.storyboard */,
-				7050E21218A6B06300DFDF81 /* Main_iPad.storyboard */,
+				165C88B218A6C36800018B79 /* CalendarListViewController.h */,
+				165C88B318A6C36800018B79 /* CalendarListViewController.m */,
+				165C88C018A6DB7200018B79 /* NewEventVC.xib */,
+				165C88C218A6DBA000018B79 /* NewEventViewController.h */,
+				165C88C318A6DBA000018B79 /* NewEventViewController.m */,
+				165C88D218A7260900018B79 /* EventCreateViewController.h */,
+				165C88D318A7260900018B79 /* EventCreateViewController.m */,
+				165C88D518A727DC00018B79 /* EventCreateVC.xib */,
+				165C88C518A7094600018B79 /* EventDetailsCell.h */,
+				165C88C618A7094600018B79 /* EventDetailsCell.m */,
+				165C88C818A7095600018B79 /* EventDetailsCell.xib */,
+				165C88BA18A6C8DA00018B79 /* CalendarListVC.xib */,
+				165C88B518A6C4CD00018B79 /* CalendarCell.h */,
+				165C88B618A6C4CD00018B79 /* CalendarCell.m */,
+				165C88BC18A6CE7600018B79 /* CalendarCell.xib */,
 				7050E21518A6B06300DFDF81 /* ViewController.h */,
 				7050E21618A6B06300DFDF81 /* ViewController.m */,
+				165C88CA18A7188900018B79 /* venueBlack.png */,
+				165C88CB18A7188900018B79 /* venueGrey.png */,
+				165C88CC18A7188900018B79 /* clockBlack.png */,
+				165C88CD18A7188900018B79 /* clockGrey.png */,
 				7050E21818A6B06300DFDF81 /* Images.xcassets */,
 				7050E20418A6B06300DFDF81 /* Supporting Files */,
 			);
@@ -233,11 +283,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165C88CF18A7188900018B79 /* venueGrey.png in Resources */,
+				165C88C118A6DB7200018B79 /* NewEventVC.xib in Resources */,
+				165C88CE18A7188900018B79 /* venueBlack.png in Resources */,
 				165C88AF18A6B97E00018B79 /* viewController.xib in Resources */,
-				7050E21418A6B06300DFDF81 /* Main_iPad.storyboard in Resources */,
 				7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */,
-				7050E21118A6B06300DFDF81 /* Main_iPhone.storyboard in Resources */,
+				165C88D618A727DD00018B79 /* EventCreateVC.xib in Resources */,
+				165C88C918A7095600018B79 /* EventDetailsCell.xib in Resources */,
+				165C88D118A7188900018B79 /* clockGrey.png in Resources */,
+				165C88D018A7188900018B79 /* clockBlack.png in Resources */,
+				165C88BB18A6C8DA00018B79 /* CalendarListVC.xib in Resources */,
 				7050E20818A6B06300DFDF81 /* InfoPlist.strings in Resources */,
+				165C88BD18A6CE7600018B79 /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165C88C418A6DBA000018B79 /* NewEventViewController.m in Sources */,
+				165C88B418A6C36800018B79 /* CalendarListViewController.m in Sources */,
 				7050E21718A6B06300DFDF81 /* ViewController.m in Sources */,
+				165C88D418A7260900018B79 /* EventCreateViewController.m in Sources */,
+				165C88C718A7094600018B79 /* EventDetailsCell.m in Sources */,
 				7050E20E18A6B06300DFDF81 /* AppDelegate.m in Sources */,
 				7050E20A18A6B06300DFDF81 /* main.m in Sources */,
+				165C88B718A6C4CD00018B79 /* CalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,22 +349,6 @@
 				7050E20718A6B06300DFDF81 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7050E20F18A6B06300DFDF81 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7050E21018A6B06300DFDF81 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		7050E21218A6B06300DFDF81 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7050E21318A6B06300DFDF81 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		7050E22818A6B06300DFDF81 /* InfoPlist.strings */ = {
