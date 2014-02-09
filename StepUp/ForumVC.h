@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @class User;
+@class ForumTVDelegate;
 
-@interface ForumVC : UIViewController
+@interface ForumVC : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @property(nonatomic, strong) User *user;
 @end

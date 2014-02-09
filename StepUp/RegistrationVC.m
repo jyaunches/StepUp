@@ -31,9 +31,9 @@
 }
 
 - (void)userSuccessfullyCreated:(User *)user {
-    ForumVC *formumVC = [[ForumVC alloc] initWithNibName:@"ForumVC" bundle:nil];
-    formumVC.user = user;
-    [self presentViewController:formumVC animated:YES completion:nil];
+    ForumVC *forumVC = [[ForumVC alloc] initWithNibName:@"ForumVC" bundle:nil];
+    forumVC.user = user;
+    [self presentViewController:forumVC animated:YES completion:nil];
 }
 
 - (void)registrationFailed {

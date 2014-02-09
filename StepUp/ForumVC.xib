@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForumVC">
             <connections>
+                <outlet property="tableView" destination="QzI-gj-VwB" id="YI5-ak-mr5"/>
                 <outlet property="view" destination="1" id="9ea-VA-2Df"/>
             </connections>
         </placeholder>
@@ -27,9 +28,16 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="QzI-gj-VwB">
+                    <rect key="frame" x="5" y="0.0" width="310" height="525"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="QzI-gj-VwB" firstAttribute="top" secondItem="1" secondAttribute="top" constant="30" id="06f-L5-wCh"/>
+                <constraint firstItem="BuE-y9-0YX" firstAttribute="top" secondItem="QzI-gj-VwB" secondAttribute="bottom" constant="5" id="fUm-vV-scz"/>
                 <constraint firstAttribute="bottom" secondItem="BuE-y9-0YX" secondAttribute="bottom" constant="5" id="mm9-7n-SZD"/>
                 <constraint firstAttribute="bottom" secondItem="nvk-Vh-DM3" secondAttribute="bottom" constant="5" id="qjc-RJ-AlM"/>
             </constraints>
