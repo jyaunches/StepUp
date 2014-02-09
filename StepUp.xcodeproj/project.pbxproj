@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		165C88AF18A6B97E00018B79 /* viewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88AE18A6B97E00018B79 /* viewController.xib */; };
 		165C88B418A6C36800018B79 /* CalendarListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88B318A6C36800018B79 /* CalendarListViewController.m */; };
 		165C88B718A6C4CD00018B79 /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88B618A6C4CD00018B79 /* CalendarCell.m */; };
 		165C88BB18A6C8DA00018B79 /* CalendarListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88BA18A6C8DA00018B79 /* CalendarListVC.xib */; };
@@ -23,19 +22,30 @@
 		165C88D118A7188900018B79 /* clockGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C88CD18A7188900018B79 /* clockGrey.png */; };
 		165C88D418A7260900018B79 /* EventCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88D318A7260900018B79 /* EventCreateViewController.m */; };
 		165C88D618A727DD00018B79 /* EventCreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88D518A727DC00018B79 /* EventCreateVC.xib */; };
+		165C88DA18A765F900018B79 /* RegistrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C88D818A765F900018B79 /* RegistrationVC.m */; };
+		165C88DB18A765F900018B79 /* RegistrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C88D918A765F900018B79 /* RegistrationVC.xib */; };
+		165C88DC18A766AC00018B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E20918A6B06300DFDF81 /* main.m */; };
+		165C88DD18A766EB00018B79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E20D18A6B06300DFDF81 /* AppDelegate.m */; };
+		702355B918A709E400182462 /* RDRStickyKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702355B818A709E400182462 /* RDRStickyKeyboardView.m */; };
+		702355BD18A70AFA00182462 /* ForumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702355BC18A70AFA00182462 /* ForumVC.xib */; };
 		7050E1FE18A6B06300DFDF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FD18A6B06300DFDF81 /* Foundation.framework */; };
 		7050E20018A6B06300DFDF81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */; };
 		7050E20218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
 		7050E20818A6B06300DFDF81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7050E20618A6B06300DFDF81 /* InfoPlist.strings */; };
-		7050E20A18A6B06300DFDF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E20918A6B06300DFDF81 /* main.m */; };
-		7050E20E18A6B06300DFDF81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E20D18A6B06300DFDF81 /* AppDelegate.m */; };
-		7050E21718A6B06300DFDF81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E21618A6B06300DFDF81 /* ViewController.m */; };
-		7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7050E21818A6B06300DFDF81 /* Images.xcassets */; };
+		7050E21118A6B06300DFDF81 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		7050E21418A6B06300DFDF81 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		7050E22018A6B06300DFDF81 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E21F18A6B06300DFDF81 /* XCTest.framework */; };
 		7050E22118A6B06300DFDF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E1FD18A6B06300DFDF81 /* Foundation.framework */; };
 		7050E22218A6B06300DFDF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050E20118A6B06300DFDF81 /* UIKit.framework */; };
 		7050E22A18A6B06300DFDF81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7050E22818A6B06300DFDF81 /* InfoPlist.strings */; };
 		7050E22C18A6B06300DFDF81 /* StepUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E22B18A6B06300DFDF81 /* StepUpTests.m */; };
+		7050E23918A6C83700DFDF81 /* ForumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E23818A6C83700DFDF81 /* ForumVC.m */; };
+		7050E24418A6DA7700DFDF81 /* MentorMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7050E24318A6DA7700DFDF81 /* MentorMessageCell.xib */; };
+		7050E24A18A6DACC00DFDF81 /* MentorMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E24918A6DACC00DFDF81 /* MentorMessageCell.m */; };
+		7050E25318A6E13800DFDF81 /* ForumTVDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050E25218A6E13800DFDF81 /* ForumTVDelegate.m */; };
+		E7770086B2C134AA5059A830 /* MessageService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770B4BD830883F9E791DF6 /* MessageService.m */; };
+		E7770724DA644A8575118B00 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770C02F040CA02F21AD9C4 /* User.m */; };
+		E7770C62F797E89E224CA996 /* RegistrationService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7770A63EC97D2AA037C14CC /* RegistrationService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +59,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		165C88AE18A6B97E00018B79 /* viewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewController.xib; sourceTree = "<group>"; };
 		165C88B218A6C36800018B79 /* CalendarListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListViewController.h; sourceTree = "<group>"; };
 		165C88B318A6C36800018B79 /* CalendarListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListViewController.m; sourceTree = "<group>"; };
 		165C88B518A6C4CD00018B79 /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
@@ -70,6 +79,12 @@
 		165C88D218A7260900018B79 /* EventCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCreateViewController.h; sourceTree = "<group>"; };
 		165C88D318A7260900018B79 /* EventCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCreateViewController.m; sourceTree = "<group>"; };
 		165C88D518A727DC00018B79 /* EventCreateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCreateVC.xib; sourceTree = "<group>"; };
+		165C88D718A765F900018B79 /* RegistrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationVC.h; sourceTree = "<group>"; };
+		165C88D818A765F900018B79 /* RegistrationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationVC.m; sourceTree = "<group>"; };
+		165C88D918A765F900018B79 /* RegistrationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationVC.xib; sourceTree = "<group>"; };
+		702355B718A709E400182462 /* RDRStickyKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRStickyKeyboardView.h; sourceTree = "<group>"; };
+		702355B818A709E400182462 /* RDRStickyKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRStickyKeyboardView.m; sourceTree = "<group>"; };
+		702355BC18A70AFA00182462 /* ForumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForumVC.xib; sourceTree = "<group>"; };
 		7050E1FA18A6B06300DFDF81 /* StepUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7050E1FD18A6B06300DFDF81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7050E1FF18A6B06300DFDF81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,14 +95,25 @@
 		7050E20B18A6B06300DFDF81 /* StepUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StepUp-Prefix.pch"; sourceTree = "<group>"; };
 		7050E20C18A6B06300DFDF81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7050E20D18A6B06300DFDF81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7050E21518A6B06300DFDF81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7050E21618A6B06300DFDF81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7050E21818A6B06300DFDF81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7050E21E18A6B06300DFDF81 /* StepUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7050E21F18A6B06300DFDF81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7050E22718A6B06300DFDF81 /* StepUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StepUpTests-Info.plist"; sourceTree = "<group>"; };
 		7050E22918A6B06300DFDF81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7050E22B18A6B06300DFDF81 /* StepUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepUpTests.m; sourceTree = "<group>"; };
+		7050E23718A6C83700DFDF81 /* ForumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumVC.h; sourceTree = "<group>"; };
+		7050E23818A6C83700DFDF81 /* ForumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumVC.m; sourceTree = "<group>"; };
+		7050E24318A6DA7700DFDF81 /* MentorMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MentorMessageCell.xib; path = ../MentorMessageCell.xib; sourceTree = "<group>"; };
+		7050E24818A6DACC00DFDF81 /* MentorMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentorMessageCell.h; sourceTree = "<group>"; };
+		7050E24918A6DACC00DFDF81 /* MentorMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentorMessageCell.m; sourceTree = "<group>"; };
+		7050E25118A6E13800DFDF81 /* ForumTVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumTVDelegate.h; sourceTree = "<group>"; };
+		7050E25218A6E13800DFDF81 /* ForumTVDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumTVDelegate.m; sourceTree = "<group>"; };
+		E777002D1DAAA966E53E8D73 /* RegistrationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationService.h; sourceTree = "<group>"; };
+		E77702290FB7197C2824D78B /* RegistrationServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationServiceProtocol.h; sourceTree = "<group>"; };
+		E777077AF11B7F4DCE7A4F1B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E7770A63EC97D2AA037C14CC /* RegistrationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationService.m; sourceTree = "<group>"; };
+		E7770B4BD830883F9E791DF6 /* MessageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageService.m; sourceTree = "<group>"; };
+		E7770C02F040CA02F21AD9C4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E7770E6B8524EBAB0ADDAB3A /* MessageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +175,12 @@
 		7050E20318A6B06300DFDF81 /* StepUp */ = {
 			isa = PBXGroup;
 			children = (
+				7050E25018A6E04A00DFDF81 /* Forum */,
 				7050E20C18A6B06300DFDF81 /* AppDelegate.h */,
 				7050E20D18A6B06300DFDF81 /* AppDelegate.m */,
-				165C88AE18A6B97E00018B79 /* viewController.xib */,
+				165C88D718A765F900018B79 /* RegistrationVC.h */,
+				165C88D818A765F900018B79 /* RegistrationVC.m */,
+				165C88D918A765F900018B79 /* RegistrationVC.xib */,
 				165C88B218A6C36800018B79 /* CalendarListViewController.h */,
 				165C88B318A6C36800018B79 /* CalendarListViewController.m */,
 				165C88C018A6DB7200018B79 /* NewEventVC.xib */,
@@ -167,14 +196,18 @@
 				165C88B518A6C4CD00018B79 /* CalendarCell.h */,
 				165C88B618A6C4CD00018B79 /* CalendarCell.m */,
 				165C88BC18A6CE7600018B79 /* CalendarCell.xib */,
-				7050E21518A6B06300DFDF81 /* ViewController.h */,
-				7050E21618A6B06300DFDF81 /* ViewController.m */,
 				165C88CA18A7188900018B79 /* venueBlack.png */,
 				165C88CB18A7188900018B79 /* venueGrey.png */,
 				165C88CC18A7188900018B79 /* clockBlack.png */,
 				165C88CD18A7188900018B79 /* clockGrey.png */,
-				7050E21818A6B06300DFDF81 /* Images.xcassets */,
 				7050E20418A6B06300DFDF81 /* Supporting Files */,
+				E7770A63EC97D2AA037C14CC /* RegistrationService.m */,
+				E777002D1DAAA966E53E8D73 /* RegistrationService.h */,
+				E77702290FB7197C2824D78B /* RegistrationServiceProtocol.h */,
+				E7770C02F040CA02F21AD9C4 /* User.m */,
+				E777077AF11B7F4DCE7A4F1B /* User.h */,
+				E7770B4BD830883F9E791DF6 /* MessageService.m */,
+				E7770E6B8524EBAB0ADDAB3A /* MessageService.h */,
 			);
 			path = StepUp;
 			sourceTree = "<group>";
@@ -206,6 +239,23 @@
 				7050E22818A6B06300DFDF81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7050E25018A6E04A00DFDF81 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				702355B718A709E400182462 /* RDRStickyKeyboardView.h */,
+				702355B818A709E400182462 /* RDRStickyKeyboardView.m */,
+				7050E23718A6C83700DFDF81 /* ForumVC.h */,
+				7050E23818A6C83700DFDF81 /* ForumVC.m */,
+				702355BC18A70AFA00182462 /* ForumVC.xib */,
+				7050E24818A6DACC00DFDF81 /* MentorMessageCell.h */,
+				7050E24918A6DACC00DFDF81 /* MentorMessageCell.m */,
+				7050E24318A6DA7700DFDF81 /* MentorMessageCell.xib */,
+				7050E25118A6E13800DFDF81 /* ForumTVDelegate.h */,
+				7050E25218A6E13800DFDF81 /* ForumTVDelegate.m */,
+			);
+			name = Forum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,14 +336,17 @@
 				165C88CF18A7188900018B79 /* venueGrey.png in Resources */,
 				165C88C118A6DB7200018B79 /* NewEventVC.xib in Resources */,
 				165C88CE18A7188900018B79 /* venueBlack.png in Resources */,
-				165C88AF18A6B97E00018B79 /* viewController.xib in Resources */,
-				7050E21918A6B06300DFDF81 /* Images.xcassets in Resources */,
 				165C88D618A727DD00018B79 /* EventCreateVC.xib in Resources */,
 				165C88C918A7095600018B79 /* EventDetailsCell.xib in Resources */,
 				165C88D118A7188900018B79 /* clockGrey.png in Resources */,
 				165C88D018A7188900018B79 /* clockBlack.png in Resources */,
 				165C88BB18A6C8DA00018B79 /* CalendarListVC.xib in Resources */,
+				7050E21418A6B06300DFDF81 /* (null) in Resources */,
+				702355BD18A70AFA00182462 /* ForumVC.xib in Resources */,
+				7050E24418A6DA7700DFDF81 /* MentorMessageCell.xib in Resources */,
+				7050E21118A6B06300DFDF81 /* (null) in Resources */,
 				7050E20818A6B06300DFDF81 /* InfoPlist.strings in Resources */,
+				165C88DB18A765F900018B79 /* RegistrationVC.xib in Resources */,
 				165C88BD18A6CE7600018B79 /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,14 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165C88DD18A766EB00018B79 /* AppDelegate.m in Sources */,
+				165C88DC18A766AC00018B79 /* main.m in Sources */,
 				165C88C418A6DBA000018B79 /* NewEventViewController.m in Sources */,
 				165C88B418A6C36800018B79 /* CalendarListViewController.m in Sources */,
-				7050E21718A6B06300DFDF81 /* ViewController.m in Sources */,
 				165C88D418A7260900018B79 /* EventCreateViewController.m in Sources */,
 				165C88C718A7094600018B79 /* EventDetailsCell.m in Sources */,
-				7050E20E18A6B06300DFDF81 /* AppDelegate.m in Sources */,
-				7050E20A18A6B06300DFDF81 /* main.m in Sources */,
+				165C88DA18A765F900018B79 /* RegistrationVC.m in Sources */,
 				165C88B718A6C4CD00018B79 /* CalendarCell.m in Sources */,
+				E7770C62F797E89E224CA996 /* RegistrationService.m in Sources */,
+				7050E24A18A6DACC00DFDF81 /* MentorMessageCell.m in Sources */,
+				7050E23918A6C83700DFDF81 /* ForumVC.m in Sources */,
+				7050E25318A6E13800DFDF81 /* ForumTVDelegate.m in Sources */,
+				702355B918A709E400182462 /* RDRStickyKeyboardView.m in Sources */,
+				E7770724DA644A8575118B00 /* User.m in Sources */,
+				E7770086B2C134AA5059A830 /* MessageService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
